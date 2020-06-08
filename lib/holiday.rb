@@ -74,14 +74,11 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, seasonHash|
     puts "#{season.to_s.capitalize}:"
     seasonHash.each do |holiday, array|
-      binding.pry
       puts "  #{holiday.to_s.split('_').map { |item| item.capitalize!}.join(' ')}: #{array.join(', ')}"
     end 
   end 
 end
 
-
-fourth_of_july  ----> fourth of july  ----> Forth Of July 
 
 
 def all_holidays_with_bbq(holiday_hash)
