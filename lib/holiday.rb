@@ -81,6 +81,9 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 
+fourth_of_july  ----> fourth of july  ----> Forth Of July 
+
+
 def all_holidays_with_bbq(holiday_hash)
   bbq_holidays = []
   holiday_hash.each do |season, holidayZ|
